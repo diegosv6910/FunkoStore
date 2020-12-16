@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.head{
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.header h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 125px;
+    color:darkslategray;
+    text-align: center;
+}
+
+.header p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    height: 500px;
+}
+
+.title-cards{
+    margin-top: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    color: white;
+    background-color: black;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.preventa-parrafo{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: tomato;
+}
+
+.banner-parrafo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.banner-main{
+    background-color: #f42a2a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%2349f620' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.wrap-catalogo{
+    margin: 10px 30px;
+    justify-content: space-around;
+}
+
+.banner-fecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-div{
+    margin-right: 20px;
+}
+
+.input-banner{
+    margin: 0 10px;
+}
+
+.footer-main{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faqs-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+}
+
+.faqs-title-footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-right: 20px;
+}
+
+.faqs-btn{
+    margin: 0 20px;
+}
+
+.icon-footer{
+    height: 40px;
+    width: 40px;
+}
